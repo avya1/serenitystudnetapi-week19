@@ -1,0 +1,4 @@
+com\studnetapp\studentinfo\FirstSerenityTest.class
+com\studnetapp\studentinfo\StudentCRUDOperation.class
+com\studnetapp\studentinfo\StudentCRUDTestWithSteps.class
+com\studnetapp\testbase\TestBase.class

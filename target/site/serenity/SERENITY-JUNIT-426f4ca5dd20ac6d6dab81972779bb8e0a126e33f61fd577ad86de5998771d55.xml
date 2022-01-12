@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.studnetapp.studentinfo.StudentCRUDTestWithSteps" skipped="0" tests="4" time="4.34" timestamp="2022-01-11T22:34:11.752Z[Europe/London]"><testcase classname="com.studnetapp.studentinfo.StudentCRUDTestWithSteps" name="This will create a new student"/><testcase classname="com.studnetapp.studentinfo.StudentCRUDTestWithSteps" name="Verify if student is add to the application"/><testcase classname="com.studnetapp.studentinfo.StudentCRUDTestWithSteps" name="Update the user information and verify the update information"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studnetapp.studentinfo.StudentCRUDTestWithSteps.test003(StudentCRUDTestWithSteps.java:53)&#13;
+</system-err></testcase><testcase classname="com.studnetapp.studentinfo.StudentCRUDTestWithSteps" name="Delete the student and verify studnet is deleted"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studnetapp.studentinfo.StudentCRUDTestWithSteps.test004(StudentCRUDTestWithSteps.java:60)&#13;
+</system-err></testcase></testsuite>
